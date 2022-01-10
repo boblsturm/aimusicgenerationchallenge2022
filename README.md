@@ -41,4 +41,4 @@ The evaluation of submissions will proceed in the following way:
 6. _Stage 3_ Each judge will present to the other judges the best tunes from their collections, and together will decide which are the best reel (or to award no prize).
 
 ## Frequently Asked Questions
-1. "Where can I get data?" The 360 reels in O'Neill's 1001 are available [here](http://john-chambers.us/~jc/music/book/ONeills/1001/). 
+1. "Where can I get data?" The 360 reels in O'Neill's 1001 are tunes 456-805 available [here](http://john-chambers.us/~jc/music/book/ONeills/1001/).
