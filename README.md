@@ -34,6 +34,7 @@ The evaluation of submissions will proceed in the following way:
 4. _Stage 1_ Each judge reviews the acceptability of each tune according to the following:
 - If plagiarism detected, reject and do not review.
 - If rhythm is not characteristic of a reel, reject and do not review.
+- If mode and accidentals are not characteristic of a reel, reject and do not review.
 5. _Stage 2_ Each judge will rate on a scale of 1–5 the acceptable tunes along the following qualities:
 - Structure
 - Melody
