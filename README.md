@@ -1,6 +1,6 @@
 # The Ai Music Generation Challenge 2022
 
-Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/),[2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three subchallenges this year! Participants can compete in any number of these subchallenges.
+Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/),[2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three sub-challenges this year! Participants can compete in any number of these sub-challenges.
 
 ## What are the three subchallenges?
 
@@ -9,14 +9,14 @@ Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020
 3. Build an artificial system that generates titles for given tunes. These systems will be applied to reels selected by the judges, who will vote on which titles they believe fit best each tune. (This could also be an output of the system built for challenge 1.)
 
 ## How?
-1. By JULY 4, register your intent to participate by notifying the [organizer](mailto:bobs@kth.se?subject=Participation-in-the-Ai-Music-Generation-Challenge-2022), and which subchallenges you wish to compete in. (At least one and at most three.)
+1. By JULY 4, register your intent to participate by notifying the [organizer](mailto:bobs@kth.se?subject=Participation-in-the-Ai-Music-Generation-Challenge-2022), and which sub-challenges you wish to compete in. (At least one and at most three.)
 2. Build a system that generates reels, and/or titles tunes, and/or appraises tunes.
 3. Write a brief technical document describing how you built your system, presenting some of its features and outcomes, and linking to your code and models for reproducibility.
 4. By OCTOBER 7, email the [organizer](mailto:bobs@kth.se):
 - if you are generating tunes, a link to download your generated collection of 1000 reels rendered as MIDI **and** in notation (such as ABC, musicXML, or staff), as well as ne reel in your collection that you want included in the evaluation (choose what you think is the best).
-- if you are generating titles or appraisals, a link to download your code.
+- a link to download your code.
 - a link to download your technical document (pdf)
-6. Only one submission from each participant will be allowed in each of the subchallenges.
+6. Only one submission from each participant will be allowed in each of the sub-challenges.
 
 ## Evaluation
 The evaluation of submitted tune collections will proceed in the following way:
@@ -31,7 +31,7 @@ The evaluation of submitted tune collections will proceed in the following way:
 - Melody
 6. _Stage 3_ Each judge will present to the other judges the best tunes from their collections, and together will decide which are the best reel (or to award no prize).
 
-The evaluation of tune titling systems and artificial judges will be announced later. 
+The evaluation of tune-titling systems and artificial judges will be announced later. 
 
 ## Why?
 This challenge has three aims:
