@@ -5,14 +5,8 @@ Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020
 ## What are the three subchallenges?
 
 1. Build an artificial system that generates the most plausible _reels_, as judged against the 350 published in F. O’Neill “The Dance Music of Ireland: O’Neill’s 1001” (1907). Up to two prizes will be awarded, and performances of the best ones will occur at some point 2022 in both Sweden and Ireland. The panel of judges consists of four (human) experts in Irish traditional music and performance. 
-2. Build an artificial judge. The judge must detect plagiarism, analyze the appropriateness of rhythm, mode, and accidentals, and grade the structure and melody, of any given tune (with reference to the 350 reels published in F. O’Neill “The Dance Music of Ireland: O’Neill’s 1001” (1907)). These artificial judges will be applied to the submissions, and their output compared with the responses of the four human judges. The system with the least error in prediction will win an award. (This could also be an output of the system built for challenge 1.)
-3. Build an artificial system that generates title for given tunes. These systems will be applied to reels selected by the judges, who will vote on which titles they believe fit best each tune. (This could also be an output of the system built for challenge 1.)
-
-## Why?
-This challenge has three aims:
-1. to promote meaningful approaches to evaluating music Ai;
-2. to see how music Ai research can benefit from traditional music, and how traditional music can benefit from music Ai research;
-3. to facilitate discussions about the ethics of music Ai research applied to traditional music practices.
+2. Build an artificial judge. This judge must detect plagiarism, analyze the appropriateness of rhythm, mode, and accidentals, and grade the structure and melody, of any given tune (with reference to the 350 reels published in F. O’Neill “The Dance Music of Ireland: O’Neill’s 1001” (1907)). These artificial judges will be applied to the submissions, and their output compared with the responses of the four human judges. The system with the least error in prediction will win an award. (This could also be an output of the system built for challenge 1.)
+3. Build an artificial system that generates titles for given tunes. These systems will be applied to reels selected by the judges, who will vote on which titles they believe fit best each tune. (This could also be an output of the system built for challenge 1.)
 
 ## How?
 1. By JULY 4, register your intent to participate by notifying the [organizer](mailto:bobs@kth.se?subject=Participation-in-the-Ai-Music-Generation-Challenge-2022), and which subchallenges you wish to compete in. (At least one and at most three.)
@@ -38,6 +32,12 @@ The evaluation of submitted tune collections will proceed in the following way:
 6. _Stage 3_ Each judge will present to the other judges the best tunes from their collections, and together will decide which are the best reel (or to award no prize).
 
 The evaluation of tune titling systems and artificial judges will be announced later. 
+
+## Why?
+This challenge has three aims:
+1. to promote meaningful approaches to evaluating music Ai;
+2. to see how music Ai research can benefit from traditional music, and how traditional music can benefit from music Ai research;
+3. to facilitate discussions about the ethics of music Ai research applied to traditional music practices.
 
 ## Frequently Asked Questions
 1. "Where can I get data?" The 360 reels in O'Neill's 1001 are tunes 456-805 available [here](http://john-chambers.us/~jc/music/book/ONeills/1001/).
