@@ -13,7 +13,7 @@ Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020
 2. Build a system that generates reels, and/or titles tunes, and/or appraises tunes.
 3. Write a brief technical document describing how you built your system, presenting some of its features and outcomes, and linking to your code and models for reproducibility.
 4. By OCTOBER 7, email the [organizer](mailto:bobs@kth.se):
-- if you are generating tunes, a link to download your generated collection of 1000 reels rendered as MIDI **and** in notation (such as ABC, musicXML, or staff), as well as ne reel in your collection that you want included in the evaluation (choose what you think is the best).
+- if you are generating tunes, a link to download your generated collection of 1000 reels rendered as MIDI **and** in notation (such as ABC, musicXML, or staff), as well as one reel in your collection that you want included in the evaluation (choose what you think is the best).
 - a link to download your code.
 - a link to download your technical document (pdf)
 6. Only one submission from each participant will be allowed in each of the sub-challenges.
@@ -40,7 +40,7 @@ This challenge has three aims:
 3. to facilitate discussions about the ethics of music Ai research applied to traditional music practices.
 
 ## Frequently Asked Questions
-1. "Where can I get data?" The 360 reels in O'Neill's 1001 are tunes 456-805 available [here](http://john-chambers.us/~jc/music/book/ONeills/1001/).
+1. "Where can I get data?" The 350 reels in O'Neill's 1001 are tunes 456-805 available [here](http://john-chambers.us/~jc/music/book/ONeills/1001/).
 2. "How is this challenge funded?" The 2022 challenge is part of a project that has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (Grant agreement No. 864189 [MUSAiC: Music at the Frontiers of Artificial Creativity and Criticism](https://www.kth.se/is/tmh/speech-communication/musaic-music-at-the-frontiers-of-artificial-creativity-and-criticism-1.950539)).
 3. "What happened with the 2020 challenge?"
 - See a video of the [2020 challenge](https://youtu.be/KSoSyoEx6hc), where the focus was on the 365 jigs in O'Neill's 1001.
