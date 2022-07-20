@@ -45,5 +45,5 @@ This challenge has three aims:
 3. "What happened with the 2020 challenge?"
 - See a video of the [2020 challenge](https://youtu.be/KSoSyoEx6hc), where the focus was on the 365 jigs in O'Neill's 1001.
 - Read more about the challenge in [Sturm & Maruri-Aguilar (2021) “The Ai Music Generation Challenge 2020: Double Jigs in the Style of O'Neill's 1001''”, Journal of Creative Music Systems. 5(1).](https://doi.org/10.5920/jcms.950)
-4. "What happened with the 2021 challenge?" Judges are currently evaluating submissions. Stay tuned!
+4. "What happened with the 2021 challenge?" Awards are mentioned [here](https://github.com/boblsturm/aimusicgenerationchallenge2021)
 
