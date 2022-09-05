@@ -2,23 +2,24 @@
 
 Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/),[2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three sub-challenges this year! Participants can compete in any number of these sub-challenges.
 
-## What are the three subchallenges?
+## What are the three sub-challenges?
 
 1. Build an artificial system that generates the most plausible _reels_, as judged against the 350 published in F. O’Neill “The Dance Music of Ireland: O’Neill’s 1001” (1907). Up to two prizes will be awarded, and performances of the best ones will occur at some point 2022 in both Sweden and Ireland. The panel of judges consists of four (human) experts in Irish traditional music and performance. 
 2. Build an artificial judge. This judge must detect plagiarism, analyze the appropriateness of rhythm, mode, and accidentals, and grade the structure and melody, of any given tune (with reference to the 350 reels published in F. O’Neill “The Dance Music of Ireland: O’Neill’s 1001” (1907)). These artificial judges will be applied to the submissions, and their output compared with the responses of the four human judges. The system with the least error in prediction will win an award. (This could also be an output of the system built for challenge 1.)
 3. Build an artificial system that generates titles for given tunes. These systems will be applied to reels selected by the judges, who will vote on which titles they believe fit best each tune. (This could also be an output of the system built for challenge 1.)
+6. Only one submission from each participant will be allowed in each of the sub-challenges.
 
 ## How?
 1. By JULY 4, register your intent to participate by notifying the [organizer](mailto:bobs@kth.se?subject=Participation-in-the-Ai-Music-Generation-Challenge-2022), and which sub-challenges you wish to compete in. (At least one and at most three.)
 2. Build a system that generates reels, and/or titles tunes, and/or appraises tunes.
 3. Write a brief technical document describing how you built your system, presenting some of its features and outcomes, and linking to your code and models for reproducibility.
-4. By OCTOBER 7, email the [organizer](mailto:bobs@kth.se):
-- if you are generating tunes, a link to download your generated collection of 1000 reels rendered as MIDI **and** in notation (such as ABC, musicXML, or staff), as well as one reel in your collection that you want included in the evaluation (choose what you think is the best).
+4. If you are generating tunes, by OCTOBER 7, email the [organizer](mailto:bobs@kth.se):
+- a link to download your generated collection of 1000 reels rendered as MIDI **and** in notation (such as ABC, musicXML, or staff), as well as one reel in your collection that you want included in the evaluation (choose what you think is the best).
 - a link to download your code.
 - a link to download your technical document (pdf)
-6. Only one submission from each participant will be allowed in each of the sub-challenges.
+5. If you are appraising or titling tunes, you will receive a set of tunes from the submitted collections sometime after OCTOBER 7.
 
-## Evaluation
+## Tune Evaluation
 The evaluation of submitted tune collections will proceed in the following way:
 1. From each submitted collection, one tune is selected by the participant of the collection, and a number of others are selected at random.
 3. All selected tunes are sent to all judges for review.
@@ -31,7 +32,21 @@ The evaluation of submitted tune collections will proceed in the following way:
 - Melody
 6. _Stage 3_ Each judge will present to the other judges the best tunes from their collections, and together will decide which are the best reel (or to award no prize).
 
-The evaluation of tune-titling systems and artificial judges will be announced later. 
+## Artificial Judge Evaluation
+The evaluation of artificial judges will proceed in the following way:
+1. Each artificial judge will perform the first two stages of evaluation for a selection of submitted tunes.
+- Stage 1: rejection based on plagiarism, rhythm and mode/accidentals.
+- Stage 2: scoring of the remaining tunes along structure and melody (graded on a scale 1, 2, 3, 4, 5) where 1 is poor.
+2. The ranking of the artificial judges will be done by the organizers by comparing AI judge outputs with those of the real judges in each stage. 
+3. To measure the differences between real and AI judges in stage 1 we will count coincident rejections of all judges.
+4. To measure the differences between real and AI judges in stage 2, we will compute a mean minimum magnitude difference of scores for non-rejected tunes. 
+5. There will be baseline computational judges, such as “reject all”, “score all as 3”, and "randomly reject or score”.
+
+## Title Evaluation
+The evaluation of tune-titling systems will proceed in the following way:
+1. Each tune titler will title a selection of submitted tunes.
+2. Titles of tunes achieving high scores in Stage 2 will be submitted to human judges for ranking.
+3. Highest ranked titles will be awarded prizes.
 
 ## Why?
 This challenge has three aims:
