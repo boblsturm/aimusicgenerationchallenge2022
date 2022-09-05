@@ -1,6 +1,6 @@
 # The Ai Music Generation Challenge 2022
 
-Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/),[2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three sub-challenges this year! Participants can compete in any number of these sub-challenges.
+Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/), [2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three sub-challenges this year! Participants can compete in any number of these sub-challenges.
 
 ## What are the three sub-challenges?
 
