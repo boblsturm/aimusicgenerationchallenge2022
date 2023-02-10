@@ -64,6 +64,26 @@ This challenge has three aims:
 
 # Results of Sub-challenge 1: Reel Generation
 
+Below are the scores of the four judges for the five systems (including the benchmark). Team names are counties in Ireland. Each tune number highlighted red is the one identified by the participant to be included in the evaluation. Nine others were selected at random. A "P" in the "Stage 1" column denotes a judge rejecting a tune due to plagiarism. A "R" denotes rejection by rhythm; and an "M" denotes rejection by mode or accidentals. Scores in the columns "Structure" and "Melody" are on a scale of 1 - 5, with 5 being the best. Green highlighting denotes election by a judge for consideration of an award.
+
+<img width="462" alt="AIMGC2022scores" src="https://user-images.githubusercontent.com/10271332/218058586-fbd7fb44-b1e8-4a4c-abcf-a934610a62c6.png">
+
+Based on the discussion, the *first prize* award is given to Tune 507 from team Clare:
+
+<img width="1050" alt="Reel507Clare" src="https://user-images.githubusercontent.com/10271332/218059799-322c5f8c-9258-4a88-8b76-856c5a1110e7.png">
+
+Judges remark: "Easy to remember, easy to follow and catch; uplifting, bright and fun to dance to"; "Excellent! Everything right! That's a 5+. Not plagiarised as far as I can see (I suspected it might be since it was so good)"; "Very simple reel, but adheres to all the variables regarding reel structure. Great Rhythm. Makes good use of repetition. Very simple but consistent and phrases are easy to remember. Excellent simple reel that sits well with the tradition."
+
+The *second prize* award is shared between two tunes: 267 from team Limerick and 979 from team Kerry:
+
+<img width="1058" alt="Reel267Limerick" src="https://user-images.githubusercontent.com/10271332/218060328-f2080c7f-40ab-4efb-a5d3-96141bbfdce4.png">
+
+Judges remark on 267: "Perfect in structure. Great natural rhythms. Beautiful melody; a fantastic tune. A tune I'd be happy to play. Well done!"; "Interesting. Nice changes c#/c"; "Has all the correct structure. Nice minor."
+
+<img width="1058" alt="Reel979Kerry" src="https://user-images.githubusercontent.com/10271332/218060368-f4a60770-2d03-4b73-ba50-f2ad9bd80bc9.png">
+
+Judges remark on 979: "Good tune"; "Structurally sound in every way. Easy to play and always has the feel of a reel when played. Good melody. Good use of repetition. Plays well on accordion and worth learning. Good tune. Phrases are strong and stand out. Melody definitely belongs in the tradition."
+
 # Results of Sub-challenge 2: AI Judge
 
 # Results of Sub-challenge 3: Tune Titling
