@@ -1,6 +1,6 @@
 # The Ai Music Generation Challenge 2022
 
-Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/), [2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three sub-challenges this year! Participants can compete in any number of these sub-challenges.
+Unlike the previous two editions ([2020](https://boblsturm.github.io/aimusic2020/), [2021](https://github.com/boblsturm/aimusicgenerationchallenge2021)), there are three sub-challenges this year. Participants can compete in any number of these sub-challenges.
 
 ## What are the three sub-challenges?
 
@@ -30,7 +30,7 @@ The evaluation of submitted tune collections will proceed in the following way:
 5. _Stage 2_ Each judge will rate on a scale of 1–5 the acceptable tunes along the following qualities:
 - Structure
 - Melody
-6. _Stage 3_ Each judge will present to the other judges the best tunes from their collections, and together will decide which are the best reel (or to award no prize).
+6. _Stage 3_ Each judge will present to the other judges the best tunes from their collections, and together will decide which deserve recognition (or to award no prize).
 
 ## Artificial Judge Evaluation
 The evaluation of artificial judges will proceed in the following way:
@@ -62,3 +62,8 @@ This challenge has three aims:
 - Read more about the challenge in [Sturm & Maruri-Aguilar (2021) “The Ai Music Generation Challenge 2020: Double Jigs in the Style of O'Neill's 1001''”, Journal of Creative Music Systems. 5(1).](https://doi.org/10.5920/jcms.950)
 4. "What happened with the 2021 challenge?" Awards are mentioned [here](https://github.com/boblsturm/aimusicgenerationchallenge2021)
 
+# Results of Sub-challenge 1: Reel Generation
+
+# Results of Sub-challenge 2: AI Judge
+
+# Results of Sub-challenge 3: Tune Titling
