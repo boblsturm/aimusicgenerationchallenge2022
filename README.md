@@ -87,3 +87,33 @@ Judges remark on 979: "Good tune"; "Structurally sound in every way. Easy to pla
 # Results of Sub-challenge 2: AI Judge
 
 # Results of Sub-challenge 3: Tune Titling
+
+All tunes elected by the judges were given titles and assessed by the judges. Two systems competed against a human (Sturm):
+- Team Clare (C)
+- Benchmark (B)
+- Human (H)
+
+The human titles were given to each tune before looking at the generated titles. Titles produced by the benchmark were created by querying a large language model prompted to generate titles for Irish traditional dance tunes, and then selecting at random from the large text file created.
+
+For each tune, judges discussed the three titles, and either voted for their favorite(s), voted against some of them, noted plagiarism, or declined to vote. In general they found this entertaining, but noted that some titles were plagiarised (e.g., "Miss Sarah Drummond Of Perth" by C), a few were problematic with negative connotations ("The Changelings" by C, which references an Irish myth about fairies stealing healthy babies and replacing them with unhealthy babies; and "The Orange Brothers' Liberty Club" by B), and some titles were just weird (e.g., "The Great Flax By Your Side" by B, and "The Most Perfect Thing A Man Has Ever Been Told, Part III" by B).
+
+Here are the results summarized, with numbers showing in favor, "-" for marks against, and "P" for plagiarised:
+
+15: B(-), H(1)
+24: C(-), B(-)
+241: H(1)
+267: B(-), C(1), H(1)
+428: H(4)
+507: B(-), C(-), H(1)
+642: C(P), B(-), H(1)
+646: H(4)
+895: H(2), C(P), B(-)
+920: H(3), C(1)
+979: C(P), H(4)
+
+Final results:
+B: 6-
+C: 2+, 2-, 3P
+H: 22+
+
+The benchmark did not perform well. Team Clare got two votes in favor and two votes against, but also reproduced three titles verbatim. The human, however, is clearly superior to either system.
