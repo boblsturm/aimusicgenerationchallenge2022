@@ -99,16 +99,16 @@ For each tune, judges discussed the three titles, and either voted for their fav
 
 Here are the results summarized, with numbers showing in favor, "-" for marks against, and "P" for plagiarised:
 
-15: B(-), H(1) -> winner H
-24: C(-), B(-) -> winner H
-241: H(1) -> winner H
-267: B(-), H(1) -> winner H
-428: H(4) -> winner H
-507: B(-), C(-), H(1) -> winner H
-642: C(P), B(-), H(1) -> winner H
-646: H(4) -> winner H
-895: H(2), C(P), B(-) -> winner H
-920: H(3), C(1) -> winner H
-979: C(P), H(4) -> winner H
+- 15: B(-), H(1) -> winner H
+- 24: C(-), B(-) -> winner H
+- 241: H(1) -> winner H
+- 267: B(-), H(1) -> winner H
+- 428: H(4) -> winner H
+- 507: B(-), C(-), H(1) -> winner H
+- 642: C(P), B(-), H(1) -> winner H
+- 646: H(4) -> winner H
+- 895: H(2), C(P), B(-) -> winner H
+- 920: H(3), C(1) -> winner H
+- 979: C(P), H(4) -> winner H
 
 The clear winner for each tune is H. Team Clare got one vote in favor and two votes against, but also reproduced three titles verbatim. The benchmark did not perform well at all.
