@@ -39,7 +39,7 @@ The evaluation of artificial judges will proceed in the following way:
 - Stage 2: scoring of the remaining tunes along structure and melody (graded on a scale 1, 2, 3, 4, 5) where 1 is poor.
 2. The ranking of the artificial judges will be done by the organizers by comparing AI judge outputs with those of the real judges in each stage. 
 3. To measure the differences between real and AI judges in stage 1 we will count coincident rejections of all judges.
-4. To measure the differences between real and AI judges in stage 2, we will compute a mean minimum magnitude difference of scores for non-rejected tunes. 
+4. To measure the differences between real and AI judges in stage 2, we will compute a mean minimum absolute difference of scores for non-rejected tunes. 
 5. There will be baseline computational judges, such as “reject all”, “score all as 3”, and "randomly reject or score”.
 
 ## Title Evaluation
@@ -88,15 +88,16 @@ Judges remark on 979: "Good tune"; "Structurally sound in every way. Easy to pla
 
 Shown below are the results of three AI judges:
 
-<img width="718" alt="Screen Shot 2023-02-25 at 12 16 25" src="https://user-images.githubusercontent.com/10271332/221353930-dfbae0f4-bdd6-4c7e-9562-e08f3309246b.png">
+<img width="715" alt="Screen Shot 2023-02-25 at 12 34 07" src="https://user-images.githubusercontent.com/10271332/221354684-a7120321-5139-449d-a759-5faac2a1d1b2.png">
 
-The scores of one system was submitted by team Clare. These are compared against two benchmarks: 
-1) Benchmark 1 detects for plagiarism; if the candidate tune is not deemed plagiarised, then its its metric structure exists in O'Neill's, then both Structure and Melody are rated 3. Otherwise these are both rated 1.
-2) Benchmark 2 detects for plagiarism; if the candidate tune is not deemed plagiarised, then a random number is drawn from {1,2,3,4,5} and assigned to both  Structure and Melody.
 
-The results for stage 1 show all three AI judges have 1 plagiarsm true positive (PTP), and 1 plagiarsm false negative (PFN). Both benchmark judges have 1 plagiarism false positive (PFP), while Clare has none. None of the benchmark AI judges was designed to reject based on meter or accidentals so their rhythm true positives (RTP), rhythm false positives (RFP) and meter false negatives are zero. Clare however has 5 RPTs, 2 RFPs and 1 MFN.
+One system was submitted by team Clare, which is compared against two benchmarks: 
+1) Benchmark 1 detects for plagiarism. If the candidate tune is not deemed plagiarised, and its metric structure exists in O'Neill's, then both Structure and Melody are rated 3; otherwise these are both rated 1.
+2) Benchmark 2 detects for plagiarism. If the candidate tune is not deemed plagiarised, then a random number is drawn from {1,2,3,4,5} and assigned to both Structure and Melody.
 
-For Stage 2, we compute for Structure (S) and Melody (M), the minumum absolute error with the scores of the human judges. In the Structure category across tunes passing its Stage 1 (47 of 50), Benchmark 1 has a mean minumum absolute error of 0.766. For Melody, this is 0.426. The mean of these is 0.596. These are all larger for Benchmark 2. The performance of Clare however is clearly the best, with a mean minumum absolute error of 0.488.
+Of the 50 tunes evaluated by the human judges, two were deemed to be plagiarised. All three AI judges detected only one of these, giving each a plagiarsm true positive (PTP) and plagiarsm false negative (PFN) of 1. Both benchmark judges have 1 plagiarism false positive (PFP), while Clare has none. None of the benchmark AI judges was designed to reject based on meter or accidentals so their rhythm true positives (RTP) amd rhythm false positives (RFP) are zero. Clare however has 5 RTPs, 3 RFPs. Clearly, Clare is the more sensitive AI judge of the three. 
+
+For Stage 2, we compute for Structure (S) and Melody (M), the minumum absolute error with the scores of the human judges. This if the four human judges rate a tune in a category as (2, 3, 4, 5) and the AI judge rates it a 1, then the minumum absolute difference is |2-1| = 1. In the Structure category across tunes passing its Stage 1 (47 of 50), Benchmark 1 has a mean minumum absolute error of 0.766. For Melody, this is 0.426. The mean of these is 0.596. These are all larger for Benchmark 2. The performance of Clare in its tunes passing Stage 1 (40 of 50) is clearly the best, with a mean minumum absolute error of 0.488.
 
 # Results of Sub-challenge 3: Tune Titling
 
